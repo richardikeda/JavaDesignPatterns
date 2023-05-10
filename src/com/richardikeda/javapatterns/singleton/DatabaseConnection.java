@@ -19,7 +19,7 @@ public class DatabaseConnection {
      * Atributo privado que armazena a conexão com o banco de dados;
      * É privado para que não seja editado e acessado diretamente de fora dessa classe.
      */
-    final private Connection connection;
+    private final Connection connection;
 
     /**
      * Construtor privado da classe DatabaseConnection.
