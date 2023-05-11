@@ -1,4 +1,4 @@
-package com.richardikeda.javapatterns.factorymethod.SimpleFactory;
+package com.richardikeda.javapatterns.factorymethod.simplefactory;
 
 /**
  * Uma classe motocicleta que implementa os metodos da interface Veículo.

@@ -1,4 +1,4 @@
-package com.richardikeda.javapatterns.factorymethod.SimpleFactory;
+package com.richardikeda.javapatterns.factorymethod.simplefactory;
 /**
  * A classe SimpleVehicleFactory é responsável por criar instâncias de veículos com base no tipo fornecido.
  * Ela fornece um método estático createVehicle() que recebe um tipo como entrada e retorna o objeto de veículo correspondente.

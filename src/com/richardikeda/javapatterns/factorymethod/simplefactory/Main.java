@@ -1,4 +1,4 @@
-package com.richardikeda.javapatterns.factorymethod.SimpleFactory;
+package com.richardikeda.javapatterns.factorymethod.simplefactory;
 
 public class Main {
     public static void main(String[] args) {
