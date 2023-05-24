@@ -1,6 +1,12 @@
-package com.richardikeda.javapatterns.factorymethod.genericfactory;
+package com.richardikeda.javapatterns.factorymethod.genericfactory.vehicles;
+
+import com.richardikeda.javapatterns.factorymethod.genericfactory.Vehicle;
 
 public class Motorcycle implements Vehicle {
+    private int cilindrada;
+
+    public Motorcycle() { }
+
     @Override
     public void start() {
         System.out.println("Motocicleta ligada.");
@@ -10,4 +16,7 @@ public class Motorcycle implements Vehicle {
     public void stop() {
         System.out.println("Motocicleta desligada.");
     }
+
+
+
 }

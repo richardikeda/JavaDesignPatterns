@@ -1,4 +1,6 @@
-package com.richardikeda.javapatterns.factorymethod.genericfactory;
+package com.richardikeda.javapatterns.factorymethod.genericfactory.vehicles;
+
+import com.richardikeda.javapatterns.factorymethod.genericfactory.Vehicle;
 
 public class Speedboat implements Vehicle {
 

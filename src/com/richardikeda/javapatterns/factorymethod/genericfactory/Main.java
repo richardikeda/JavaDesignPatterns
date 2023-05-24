@@ -1,5 +1,7 @@
 package com.richardikeda.javapatterns.factorymethod.genericfactory;
 
+import com.richardikeda.javapatterns.factorymethod.genericfactory.factory.*;
+
 public class Main {
     public static void main(String[] args) {
         // Criando uma fábrica de carros
@@ -14,7 +16,8 @@ public class Main {
         // Criando uma moto usando a fábrica de motos
         Vehicle motorcycle = motorcycleFactory.createVehicle();
         motorcycle.start(); // Saída: Motocicleta ligada.
-        motorcycle.stop();  // Saída: Motocicleta desligada.
+        motorcycle.stop();  // Saída: Motocicleta desligada.]
+
 
         // Criando uma fábrica de lanchas (speedboats)
         VehicleFactory speedboatFactory = new SpeedboatFactory();
