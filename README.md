@@ -12,6 +12,16 @@ Este repositório contém exemplos de implementação dos padrões de projeto (D
     *   *Exemplo:* `NotificationFactory` cria diferentes tipos de notificações (SMS, Email, Push) sem expor a lógica de criação ao cliente.
 *   **Builder**: Separa a construção de um objeto complexo da sua representação, permitindo a criação de diferentes representações passo a passo.
     *   *Exemplo:* `ComputerBuilder` constrói um computador com diferentes configurações de hardware (HDD, RAM, Placa de Vídeo, etc.).
+*   **Abstract Factory**: Permite produzir famílias de objetos relacionados sem especificar suas classes concretas.
+    *   *Exemplo:* `GUIFactory` cria botões e checkboxes compatíveis para diferentes sistemas operacionais (Windows, MacOS).
+    *   **Quando é recomendado:** Quando o sistema deve ser independente de como seus produtos são criados e quando produtos devem ser usados em conjunto (famílias).
+    *   **Quando não é recomendado:** Quando a complexidade adicional não justifica a necessidade de criar famílias de objetos.
+    *   [📖 Documentação Detalhada e Cenários de Uso](docs/ABSTRACT_FACTORY.md)
+*   **Prototype**: Permite copiar objetos existentes sem fazer o código depender de suas classes.
+    *   *Exemplo:* Clonagem de formas geométricas (`Circle`, `Rectangle`) mantendo suas propriedades.
+    *   **Quando é recomendado:** Quando a criação direta de um objeto é custosa (tempo/recursos) ou sua configuração é complexa.
+    *   **Quando não é recomendado:** Quando a clonagem de referências circulares é muito complexa ou a criação direta é trivial.
+    *   [📖 Documentação Detalhada e Cenários de Uso](docs/PROTOTYPE.md)
 
 ### Estruturais (Structural)
 
@@ -32,8 +42,8 @@ Este repositório contém exemplos de implementação dos padrões de projeto (D
 Aqui está a lista completa dos padrões GoF restantes que podem ser implementados futuramente:
 
 ### Criacionais
-- [ ] Abstract Factory
-- [ ] Prototype
+- [x] Abstract Factory
+- [x] Prototype
 
 ### Estruturais
 - [ ] Bridge
@@ -74,3 +84,5 @@ Outros exemplos disponíveis para execução:
 - `com.richardikeda.javapatterns.strategy.StrategyExample`
 - `com.richardikeda.javapatterns.adapter.AdapterExample`
 - `com.richardikeda.javapatterns.command.CommandExample`
+- `com.richardikeda.javapatterns.abstractfactory.AbstractFactoryExample`
+- `com.richardikeda.javapatterns.prototype.PrototypeExample`
